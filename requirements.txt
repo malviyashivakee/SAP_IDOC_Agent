@@ -1,0 +1,22 @@
+openai==1.51.0
+azure-identity==1.17.1
+azure-search-documents==11.5.1
+azure-servicebus==7.12.3
+azure-keyvault-secrets==4.8.0
+httpx==0.27.2
+pydantic==2.9.2
+pydantic-settings==2.5.2
+sqlalchemy==2.0.35
+asyncpg==0.29.0
+tenacity==9.0.0
+structlog==24.4.0
+opentelemetry-sdk==1.27.0
+opentelemetry-exporter-otlp==1.27.0
+python-dotenv==1.0.1
+aiohttp==3.10.5
+
+# pyrfc is NOT distributed on PyPI. It must be built/installed from SAP's
+# licensed "NetWeaver RFC SDK" download (SAP Support Portal), following
+# https://github.com/SAP/PyRFC#installation. The Dockerfile assumes the SDK
+# has been staged into ./sapnwrfc before build (see agents/Dockerfile).
+# pyrfc==3.3
